@@ -141,7 +141,8 @@ gap: 75px;
 .hot-deal{
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    height: 520px;
+    width: 1080px;
+    height: 320px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -209,5 +210,45 @@ gap: 75px;
     background: url("./Flower Asset/Rectangle\ 6.png"); 
 }
 /* instagram style end */
+/* latest deals style start */
+.latest-Deals{
+    width: 1080px;
+    height: 320px;
+    background: url("./Flower Asset/Rectangle\ 9.png"); 
+    margin: auto;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lightgray  0px -203.444px / 100% 213.755% ;
+    margin-bottom: 70px;
 
+}
+.latest-Deals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.latest-Deals h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.latest-Deals p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn [type=text ]{
+    width: 400px;
+    height: 44px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left:15px;
+    margin-right: 16px;
+    }
+/* latest deals style end */
 
