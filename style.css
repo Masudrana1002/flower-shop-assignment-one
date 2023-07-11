@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 body{
     font-family: 'Lato', sans-serif;
@@ -30,6 +31,7 @@ body{
     align-items: center;
     background-color: rgba(229, 84, 115, 0.1);
     width: 100vw;
+    height: 550px;
 }
 .bennar-content{
     width: 708px;
@@ -39,7 +41,6 @@ body{
     font-size: 70px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
 }
 .banner-description{
     color: rgba(39, 39, 39, 0.60);
@@ -73,13 +74,13 @@ body{
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 .Featured-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 20px;
 }
 .flower-img-section{
     display: flex;
@@ -160,6 +161,7 @@ gap: 75px;
 .deal-pic{
     width: 318px;
     height: 420px;
+    overflow-y: hidden;
 }
 /* Hot deal style end */
 /* instagram style start */
@@ -216,7 +218,7 @@ gap: 75px;
 /* latest deals style start */
 .latest-Deals{
     width: 75vw;
-    height: 320px;
+    height: 420px;
     background: url("./Flower Asset/Rectangle\ 9.png"); 
     margin:0px auto;
     border-radius: 8px;
@@ -244,7 +246,7 @@ gap: 75px;
     font-weight: 400;
 }
 .btn [type=text ]{
-    width: 400px;
+    width: 480px;
     height: 44px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 14px;
@@ -255,10 +257,12 @@ gap: 75px;
 /* latest deals style end */
 /* our address style start */
 .our-address{
-    background: url("./Flower Asset/addres.jpg") , linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.7)); 
+    background: url("./Flower Asset/overhead-view-flower-bouquet-white-background.jpg") , linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.5)); 
     background-blend-mode: overlay;
-    background-size: cover;
-    display: flex;justify-content: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     width:75vw;
@@ -266,6 +270,19 @@ gap: 75px;
     border-radius: 8px;
     padding: 60px 0px;
     color: white;
+
+}
+.address-name{
+    width: 400px;
+    height: 300px;
+    border-right: 5px solid rgba(229, 84, 115, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.address-name i{
+    font-size:25px;
+   margin-right: 10px;
 
 }
 .address{
@@ -285,6 +302,16 @@ address{
 font-size: 24px;
 font-weight: 400;
 }
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    border: 10px solid white;
+    border-radius: 15px;
+
+}
 /* our address style end */
 /* footer style start */
 .footer{
@@ -295,6 +322,7 @@ font-weight: 400;
     align-items: center;
     flex-direction: column;
     padding: 100px 0px;
+    height: 250px;
 }
 .footer h2{
     color: #fcfafa;
@@ -306,7 +334,6 @@ font-weight: 400;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
     }
 .footer small {
     color: rgba(255, 255, 255, 0.40);
