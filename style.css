@@ -29,6 +29,7 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.1);
+    width: 100vw;
 }
 .bennar-content{
     width: 708px;
@@ -59,6 +60,8 @@ body{
     flex-direction: column;
     align-items: center;
     margin-top: 70px;
+    width: 75vw;
+    margin:80px auto;
 }
 .featured-content{
     display: flex;
@@ -92,7 +95,6 @@ body{
     border-radius: 300px 300px 0px 0px;
     display: flex;
     align-items: flex-end;
-    padding-bottom: 0px;
 }
 .one{
     background: rgba(167, 33, 98, 0.15);
@@ -120,7 +122,7 @@ text-decoration-line: underline;
 /* Featured section style end */
 /* customer service stylr start */
 .customer-service-section{
-width: 1030px;
+width: 75vw;
 height: 320px;
 border-radius: 8px;
 background: rgba(39, 39, 39, 0.05);
@@ -141,12 +143,11 @@ gap: 75px;
 .hot-deal{
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    width: 1080px;
+    width: 100vw;
     height: 520px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0px 300px;
     text-align: center;
 
 }
@@ -169,6 +170,7 @@ gap: 75px;
     flex-direction: column;
     text-align: center;
     margin-top: 100px;
+    width: 100vw;
 }
 .stagram-content h2{
     color: #272727;
@@ -192,10 +194,11 @@ gap: 75px;
   }
   .instagram-pic{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
-    gap: 24px;
+    gap: 22px;
     margin: 50px 0px;
+    width: 100vw;
   }
 .pic-one{
     background: url("./Flower Asset/Flower 01.png"); 
@@ -212,16 +215,15 @@ gap: 75px;
 /* instagram style end */
 /* latest deals style start */
 .latest-Deals{
-    width: 1080px;
+    width: 75vw;
     height: 320px;
     background: url("./Flower Asset/Rectangle\ 9.png"); 
-    margin: auto;
+    margin:0px auto;
     border-radius: 8px;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: lightgray  0px -203.444px / 100% 213.755% ;
     margin-bottom: 70px;
-
 }
 .latest-Deals{
     display: flex;
@@ -251,14 +253,48 @@ gap: 75px;
     margin-right: 16px;
     }
 /* latest deals style end */
+/* our address style start */
+.our-address{
+    background: url("./Flower Asset/addres.jpg") , linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.7)); 
+    background-blend-mode: overlay;
+    background-size: cover;
+    display: flex;justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:75vw;
+    margin:50px auto;
+    border-radius: 8px;
+    padding: 60px 0px;
+    color: white;
+
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 120px;
+    margin-top: 15px;
+}
+.our-address h1{
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+}
+address{
+font-size: 24px;
+font-weight: 400;
+}
+/* our address style end */
 /* footer style start */
 .footer{
     background: #111010;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 100px 10px;
+    padding: 100px 0px;
 }
 .footer h2{
     color: #fcfafa;
@@ -279,37 +315,6 @@ gap: 75px;
     font-weight: 400;
     }
     /* footer style end */
-    /* our address style start */
-    .our-address{
-        background: url("./Flower Asset/addres.jpg") , linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.7)); 
-        background-blend-mode: overlay;
-        background-size: cover;
-        display: flex;justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 70vw;
-        margin:50px auto;
-        border-radius: 8px;
-        padding: 60px 30px;
-        color: white;
-
-    }
-    .address{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 120px;
-        margin-top: 15px;
-    }
-.our-address h1{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-
-}
-address{
-    font-size: 24px;
-    font-weight: 400;
-}
+    
 
 
